@@ -13,14 +13,14 @@ vim.o.hlsearch = false
 vim.o.incsearch = true
 
 vim.wo.number = true
-vim.o.mouse = 'a'
-vim.o.clipboard = 'unnamedplus'
+vim.o.mouse = "a"
+vim.o.clipboard = "unnamedplus"
 vim.o.breakindent = true
 vim.o.undofile = true
 vim.o.ignorecase = true
 vim.o.smartcase = true
-vim.wo.signcolumn = 'yes'
-vim.o.completeopt = 'menuone,noselect'
+vim.wo.signcolumn = "yes"
+vim.o.completeopt = "menuone,noselect"
 vim.o.termguicolors = true
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
